@@ -19,6 +19,8 @@ We refer to the `requirements` file for an overview of the package versions in o
 conda create -n [your_new_environment_name] --file requirements
 ```
 
+Install below package
+
 ```shell
 pip install easydict
 pip install timm
