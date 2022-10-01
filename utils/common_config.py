@@ -32,7 +32,7 @@ def get_backbone(p):
     elif p['backbone'] == 'hrnet_w18':
         from models.seg_hrnet import hrnet_w18
         backbone = hrnet_w18(p['backbone_kwargs']['pretrained'])
-        backbone_channels = [36, 72, 144, 288]
+        backbone_channels = [18, 36, 72, 144]
 
     else:
         raise NotImplementedError
